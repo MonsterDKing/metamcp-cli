@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { execSync } from 'node:child_process';
+import { execFileSync } from 'node:child_process';
 
 export interface EndpointConfig {
   baseUrl: string;
@@ -124,7 +124,8 @@ const MCP_KEY = 'metamcp';
 
 function hasBinary(name: string): boolean {
   try {
-    execSync(`which ${name}`, { stdio: 'ignore' });
+    const cmd = process.platform === 'win32' ? 'where.exe' : 'which';
+    execFileSync(cmd, [name], { stdio: 'ignore' });
     return true;
   } catch {
     return false;

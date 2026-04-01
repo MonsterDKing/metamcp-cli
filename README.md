@@ -1,6 +1,11 @@
 # metamcp-cli
 
+[![npm version](https://img.shields.io/npm/v/metamcp-cli.svg)](https://www.npmjs.com/package/metamcp-cli)
+[![GitHub](https://img.shields.io/github/license/MonsterDKing/metamcp-cli)](https://github.com/MonsterDKing/metamcp-cli)
+
 CLI wrapper for [MetaMCP](https://github.com/metatool-ai/metamcp) — auto-detect your IDEs and configure them to use your MetaMCP instance in seconds.
+
+**[GitHub](https://github.com/MonsterDKing/metamcp-cli)** | **[npm](https://www.npmjs.com/package/metamcp-cli)**
 
 ## Install
 

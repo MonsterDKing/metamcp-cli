@@ -1,6 +1,14 @@
 {
   "name": "metamcp-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "homepage": "https://github.com/MonsterDKing/metamcp-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterDKing/metamcp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MonsterDKing/metamcp-cli/issues"
+  },
   "description": "CLI wrapper for MetaMCP — auto-configure MCP clients from your MetaMCP instance",
   "type": "module",
   "bin": {

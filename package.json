@@ -1,10 +1,10 @@
 {
   "name": "metamcp-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI wrapper for MetaMCP — auto-configure MCP clients from your MetaMCP instance",
   "type": "module",
   "bin": {
-    "metamcp-cli": "./dist/index.js"
+    "metamcp-cli": "dist/index.js"
   },
   "scripts": {
     "build": "tsup",

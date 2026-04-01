@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.metamcp-backup
+.mcp.json
+.vscode/mcp.json
